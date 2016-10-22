@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="400.0" maxWidth="400.0" minHeight="400.0" minWidth="400.0" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="5.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amatorska Stacja Pogodowa" wrappingWidth="390.013671875">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="button_wykresy" layoutY="50.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Wykresy" />
+      <Button fx:id="alarmy" layoutX="138.0" layoutY="50.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Alarmy" />
+      <Button fx:id="historia" layoutX="69.0" layoutY="50.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Historia" />
+      <Button fx:id="exit" layoutX="207.0" layoutY="50.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Exit" />
+   </children>
+</AnchorPane>
